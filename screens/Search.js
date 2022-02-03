@@ -101,11 +101,11 @@ export default class SearchScreen extends Component {
             <TextInput
               style={styles.textinput}
               onChangeText={text => this.setState({ searchText: text })}
-              placeholder={"Type here"}
+              placeholder={"Escribe aquí"}
               placeholderTextColor={"#FFFFFF"}
             />
             <TouchableOpacity style={styles.scanbutton} onPress={() => {}}>
-              <Text style={styles.scanbuttonText}>Search</Text>
+              <Text style={styles.scanbuttonText}>Buscar</Text>
             </TouchableOpacity>
           </View>
         </View>
